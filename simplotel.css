@@ -1,0 +1,685 @@
+.para {
+    font-size: 20px;
+
+
+}
+
+@media (min-width:1200px) {
+    .bgcolor {
+        background-image: linear-gradient(to right, #edf0bb, #facaed);
+        height: 1900px;
+        width: 1920px;
+    }
+
+
+    .navbarbg {
+        background-color: #f0675b;
+        width: 1920px;
+        height: 70px;
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+
+    .navbarnames {
+        display: flex;
+        flex-direction: row;
+
+        align-self: center;
+        justify-content: space-around;
+    }
+
+    .menuicon {
+        display: none;
+
+
+
+    }
+
+    .toptext {
+        height: 600px;
+        width: 950px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 42px;
+
+
+
+
+    }
+
+    .topcard {
+        display: flex;
+    }
+
+    .image1 {
+
+        height: 640px;
+        width: 950px;
+
+    }
+
+    .image2 {
+        padding: 5px;
+        height: 340px;
+        width: 340px;
+
+    }
+
+    .image3 {
+        padding: 5px;
+        height: 340px;
+        width: 340px;
+    }
+
+    .image4 {
+        padding: 5px;
+        height: 695px;
+        width: 340px;
+
+    }
+
+    .bottomcard {
+        width: 1920;
+        height: 1000px;
+        display: flex;
+
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 40px;
+
+    }
+
+
+    .bottomcards {
+        height: 1000px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .bottomtext {
+        background-color: #f77265;
+        height: 390px;
+        width: 690px;
+        padding: 20px;
+        margin-top: 180px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: center;
+
+
+
+
+
+    }
+
+    .buttonproperty {
+        height: 40px;
+        width: 150px;
+        align-self: center;
+        border-color: transparent;
+        background-color: #f0675b;
+    }
+
+    h1 {
+        font-family: arial;
+        font-size: 65px;
+    }
+
+    .paragraphproperty {
+        font-size: 25px;
+        font-family: Arial;
+
+    }
+}
+
+
+@media (min-width:576px) and (max-width:767px) {
+    .bgcolor {
+        background-image: linear-gradient(to right, #edf0bb, #facaed);
+        height: 2300px;
+        width: 576px;
+    }
+
+
+    .navbarbg {
+        background-color: #f0675b;
+        width: 576px;
+        height: 70px;
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+
+    .navbarnames {
+        display: none;
+    }
+
+    .menuicon {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        margin-left: 490px;
+
+        padding: 18px;
+        height: 40px;
+        width: 30px;
+
+
+
+
+    }
+
+    .toptext {
+        height: 550px;
+        width: 570px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 42px;
+
+
+
+
+    }
+
+    .topcard {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image1 {
+
+        height: 550px;
+        width: 576px;
+
+    }
+
+    .image2 {
+        padding: 5px;
+        height: 270px;
+        width: 250px;
+
+    }
+
+    .image3 {
+        padding: 5px;
+        height: 270px;
+        width: 250px;
+
+    }
+
+    .image4 {
+        padding: 5px;
+        height: 552px;
+        width: 250px;
+
+    }
+
+    .bottomcard {
+        display: flex;
+        padding: 30px;
+        flex-wrap: wrap;
+
+
+    }
+
+
+    .bottomcards {
+        height: 576px;
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .bottomtext {
+        background-color: #f0675b;
+        height: 330px;
+        width: 590px;
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+
+        align-self: center;
+
+
+
+
+    }
+
+    .buttonproperty {
+        height: 40px;
+        width: 150px;
+        align-self: center;
+        border-color: transparent;
+        background-color: #e66778;
+    }
+
+    h1 {
+        font-family: arial;
+        font-size: 55px;
+    }
+
+    .paragraphproperty {
+        font-size: 18px;
+        font-family: Arial;
+
+    }
+}
+
+@media (min-width:768px) and (max-width:990px) {
+    .bgcolor {
+        background-image: linear-gradient(to right, #edf0bb, #facaed);
+        height: 2500px;
+        width: 768px;
+    }
+
+
+    .navbarbg {
+        background-color: #f0675b;
+        width: 768px;
+        height: 70px;
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+
+    .navbarnames {
+        display: none;
+    }
+
+    .menuicon {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        margin-left: 650px;
+
+        padding: 18px;
+        height: 40px;
+        width: 30px;
+
+
+
+    }
+
+    .toptext {
+        height: 550px;
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 42px;
+
+
+
+
+    }
+
+    .topcard {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image1 {
+
+        height: 760px;
+        width: 768px;
+
+    }
+
+    .image2 {
+        padding: 5px;
+        height: 270px;
+        width: 360px;
+
+    }
+
+    .image3 {
+        padding: 5px;
+        height: 270px;
+        width: 360px;
+
+    }
+
+    .image4 {
+        padding: 5px;
+        height: 552px;
+        width: 360px;
+
+    }
+
+    .bottomcard {
+        display: flex;
+        padding: 20px;
+        flex-wrap: wrap;
+
+
+    }
+
+
+    .bottomcards {
+        height: 576px;
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .bottomtext {
+        background-color: #f0675b;
+        height: 330px;
+        width: 570px;
+        padding: 30px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+
+        align-self: center;
+
+
+
+
+    }
+
+    .buttonproperty {
+        height: 40px;
+        width: 150px;
+        align-self: center;
+        border-color: transparent;
+        background-color: #f0675b;
+    }
+
+    h1 {
+        font-family: arial;
+        font-size: 65px;
+    }
+
+    .paragraphproperty {
+        font-size: 20px;
+        font-family: Arial;
+
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .bgcolor {
+        background-image: linear-gradient(to right, #edf0bb, #facaed);
+        height: 1300px;
+        width: 992px;
+    }
+
+
+    .navbarbg {
+        background-color: #f0675b;
+        width: 992px;
+        height: 70px;
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+
+    .navbarnames {
+        display: flex;
+        flex-direction: row;
+
+        align-self: center;
+        justify-content: space-around;
+    }
+
+    .menuicon {
+        display: none;
+
+
+
+    }
+
+    .toptext {
+        height: 550px;
+        width: 490px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 20px;
+        margin: 20px;
+
+
+
+
+    }
+
+    .topcard {
+        display: flex;
+    }
+
+    .image1 {
+
+        height: 570px;
+        width: 490px;
+
+    }
+
+    .image2 {
+        padding: 5px;
+        height: 240px;
+        width: 240px;
+
+
+    }
+
+    .image3 {
+        height: 240px;
+        width: 240px;
+
+
+    }
+
+    .image4 {
+        padding: 5px;
+        height: 483px;
+        width: 240px;
+
+    }
+
+    .bottomcard {
+        display: flex;
+        padding: 20px;
+
+    }
+
+
+    .bottomcards {
+        height: 500px;
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 15px;
+
+    }
+
+    .bottomtext {
+        background-color: #f0675b;
+        height: 452px;
+        width: 440px;
+        padding: 12px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: center;
+        margin-left: 50px;
+
+
+
+
+    }
+
+    .buttonproperty {
+        height: 40px;
+        width: 150px;
+        align-self: center;
+        border-color: transparent;
+        background-color: #f0675b;
+    }
+
+    h1 {
+        font-family: arial;
+        font-size: 65px;
+    }
+
+    .paragraphproperty {
+        font-size: 20px;
+        font-family: Arial;
+
+
+    }
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .bgcolor {
+        background-image: linear-gradient(to right, #edf0bb, #facaed);
+        height: 1300px;
+        width: 300px;
+    }
+
+
+    .navbarbg {
+        background-color: #f0675b;
+        width: 300px;
+        height: 50px;
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+
+    .navbarnames {
+        display: none;
+    }
+
+    .menuicon {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        margin-left: 240px;
+
+        padding: 18px;
+        height: 30px;
+        width: 32px;
+
+
+
+
+    }
+
+    .toptext {
+        height: 350px;
+        width: 570px;
+        display: flex;
+        flex-direction: column;
+
+        padding: 22px;
+
+
+
+
+    }
+
+    .topcard {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image1 {
+
+        height: 300px;
+        width: 300px;
+
+    }
+
+    .image2 {
+
+        height: 130px;
+        width: 130px;
+
+    }
+
+    .image3 {
+        height: 130px;
+        width: 130px;
+
+    }
+
+    .image4 {
+
+        height: 275px;
+        width: 140px;
+
+    }
+
+    .bottomcard {
+        display: flex;
+        padding: 10px;
+        flex-wrap: wrap;
+
+
+    }
+
+
+    .bottomcards {
+        height: 290px;
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .bottomtext {
+        background-color: #f0675b;
+        height: 230px;
+        width: 700px;
+        padding: 10px;
+
+        display: flex;
+        flex-direction: column;
+
+        align-self: center;
+
+
+
+
+    }
+
+    .buttonproperty {
+        height: 40px;
+        width: 150px;
+        align-self: center;
+        border-color: transparent;
+        background-color: #e66778;
+    }
+
+    h1 {
+        font-family: arial;
+        font-size: 29px;
+    }
+
+    .paragraphproperty {
+        font-size: 15px;
+        font-family: Arial;
+
+    }
+}
